@@ -1,0 +1,141 @@
+.log-in,
+.login {
+  position: absolute;
+}
+.login {
+  top: 8px;
+  right: 0;
+  font-weight: 500;
+  display: none;
+}
+.log-in {
+  top: 0;
+  left: calc(50% - 42.5px);
+  font-size: var(--ui-30-semi-size);
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+}
+.iconx,
+.right {
+  position: absolute;
+  display: none;
+}
+.iconx {
+  top: 4.7px;
+  left: -0.3px;
+  width: 22.6px;
+  height: 22.6px;
+  object-fit: contain;
+}
+.right {
+  top: calc(50% - 10px);
+  left: 0;
+  font-weight: 500;
+  text-align: left;
+}
+.login-title {
+  position: absolute;
+  width: calc(100% - 47px);
+  top: 152px;
+  right: 24px;
+  left: 23px;
+  height: 36px;
+  text-align: right;
+  color: var(--green-primary);
+}
+.bg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.email1,
+.show {
+  top: calc(50% - 9px);
+  font-weight: 500;
+}
+.email1 {
+  position: absolute;
+  left: 16px;
+}
+.show {
+  right: 16px;
+  color: var(--green-primary);
+  text-align: right;
+  display: none;
+}
+.email,
+.show,
+.show1 {
+  position: absolute;
+}
+.email {
+  width: calc(100% - 47px);
+  top: 220px;
+  right: 24px;
+  left: 23px;
+  height: 50px;
+}
+.show1 {
+  top: calc(50% - 9px);
+  right: 16px;
+  font-weight: 500;
+  color: var(--green-primary);
+  text-align: right;
+}
+.password {
+  position: absolute;
+  width: calc(100% - 34px);
+  top: 291px;
+  right: 11px;
+  left: 23px;
+  height: 50px;
+}
+.login-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--green-primary);
+  width: 356px;
+  height: 52px;
+}
+.log-in1 {
+  position: absolute;
+  top: 8px;
+  left: 135px;
+  display: inline-block;
+  width: 85px;
+  height: 35px;
+}
+.login-button {
+  position: absolute;
+  top: 444px;
+  left: 12px;
+  width: 356px;
+  height: 52px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--ui-30-semi-size);
+  color: var(--color-white);
+  font-family: var(--font-dongle);
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--ui-16-medium-size);
+  color: var(--gray-03);
+  font-family: var(--ui-16-medium);
+}

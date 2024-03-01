@@ -1,0 +1,108 @@
+.login-button-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  width: 207px;
+  height: 58px;
+  cursor: pointer;
+}
+.log-in2 {
+  position: absolute;
+  top: 11px;
+  left: 61px;
+  display: inline-block;
+  width: 85px;
+  height: 35px;
+}
+.login-button1 {
+  position: absolute;
+  top: 546px;
+  left: 92px;
+  width: 207px;
+  height: 58px;
+  cursor: pointer;
+}
+.sign-up-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 209px;
+  height: 58px;
+}
+.sign-up-button2,
+.sign-up2 {
+  position: absolute;
+  cursor: pointer;
+}
+.sign-up2 {
+  top: 11px;
+  left: 46px;
+  display: inline-block;
+  width: 116px;
+  height: 36px;
+}
+.sign-up-button2 {
+  top: 637px;
+  left: 90px;
+  width: 209px;
+  height: 58px;
+}
+.frame-icon1 {
+  position: absolute;
+  top: 0;
+  left: -7px;
+  width: 390px;
+  height: 62px;
+  object-fit: cover;
+  mix-blend-mode: linear-burn;
+}
+.imgonline-com-ua-replacecolor-icon {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 318px;
+  height: 339px;
+  object-fit: cover;
+}
+.logo-child {
+  top: 280px;
+  left: 0;
+  background-color: var(--color-forestgreen);
+  width: 336px;
+  height: 65px;
+}
+.logo,
+.logo-child,
+.s-u-p4 {
+  position: absolute;
+}
+.s-u-p4 {
+  top: 298px;
+  left: 6px;
+  display: inline-block;
+  width: 314px;
+  height: 42px;
+}
+.logo {
+  top: 62px;
+  left: 37px;
+  width: 336px;
+  height: 345px;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-ruda);
+}
+.starting-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-forestgreen);
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--ui-30-semi-size);
+  color: var(--green-primary);
+  font-family: var(--font-dongle);
+}

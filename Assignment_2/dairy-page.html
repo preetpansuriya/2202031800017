@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./dairy-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Droid Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Do Hyeon:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Duru Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="dairy-page">
+      <div class="base4">
+        <div class="base5"></div>
+        <div class="home-button2" id="homeButtonContainer">
+          <div class="home-button-inner"></div>
+          <img class="home-1-icon2" alt="" src="./public/home-1@2x.png" />
+
+          <b class="b2">?</b>
+        </div>
+      </div>
+      <img class="frame-icon" alt="" src="./public/frame@2x.png" />
+
+      <div class="dairy-title1">
+        <div class="dairy-title-item"></div>
+        <b class="dairy3">DAIRY</b>
+      </div>
+      <div class="products">
+        <div class="meiji-fresh-milk">
+          <img
+            class="screenshot-2024-01-10-211015-1"
+            alt=""
+            src="./public/screenshot-20240110-211015-1@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211015-3"
+            alt=""
+            src="./public/screenshot-20240110-211015-3@2x.png"
+          />
+        </div>
+        <div class="magnolia">
+          <img
+            class="screenshot-2024-01-10-211015-21"
+            alt=""
+            src="./public/screenshot-20240110-211015-2@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211057-11"
+            alt=""
+            src="./public/screenshot-20240110-211057-1@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211057-21"
+            alt=""
+            src="./public/screenshot-20240110-211057-2@2x.png"
+          />
+
+          <div class="location-button" id="locationButtonContainer">
+            <div class="location-button-child"></div>
+            <div class="directions2">Directions</div>
+          </div>
+        </div>
+        <div class="meiji-low-fat">
+          <img
+            class="screenshot-2024-01-10-211839-1"
+            alt=""
+            src="./public/screenshot-20240110-211839-1@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211839-2"
+            alt=""
+            src="./public/screenshot-20240110-211839-2@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211015-4"
+            alt=""
+            src="./public/screenshot-20240110-211015-4@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211015-6"
+            alt=""
+            src="./public/screenshot-20240110-211015-2@2x.png"
+          />
+
+          <img
+            class="screenshot-2024-01-10-211015-5"
+            alt=""
+            src="./public/screenshot-20240110-211015-5@2x.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      
+      var locationButtonContainer = document.getElementById(
+        "locationButtonContainer"
+      );
+      if (locationButtonContainer) {
+        locationButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./product-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

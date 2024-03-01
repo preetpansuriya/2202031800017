@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-ruda: Ruda;
+  --font-droid-sans: "Droid Sans";
+  --font-do-hyeon: "Do Hyeon";
+  --font-duru-sans: "Duru Sans";
+  --font-dongle: Dongle;
+  --ui-16-medium: Inter;
+
+  /* font sizes */
+  --font-size-14xl: 33px;
+  --font-size-mid: 17px;
+  --font-size-mini: 15px;
+  --font-size-46xl: 65px;
+  --ui-30-semi-size: 30px;
+  --ui-16-medium-size: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-forestgreen: #46a24b;
+  --black: #000;
+  --color-dimgray-100: #5a5a5a;
+  --color-dimgray-200: rgba(93, 93, 93, 0.5);
+  --color-gainsboro: #d9d9d9;
+  --green-primary: #5db075;
+  --gray-03: #bdbdbd;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-8xs: 5px;
+  --br-mini: 15px;
+  --br-31xl: 50px;
+}

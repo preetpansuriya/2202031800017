@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./product-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Droid Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ruda:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Do Hyeon:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Duru Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="product-page">
+      <div class="base2">
+        <div class="base3"></div>
+        <div class="home-button1" id="homeButtonContainer">
+          <div class="home-button-item"></div>
+          <img class="home-1-icon1" alt="" src="./public/home-1@2x.png" />
+
+          <b class="b1" id="text">?</b>
+        </div>
+      </div>
+      <div class="item">
+        <img
+          class="screenshot-2024-01-10-211015-2"
+          alt=""
+          src="./public/screenshot-20240110-211015-2@2x.png"
+        />
+
+        <img
+          class="screenshot-2024-01-10-211057-1"
+          alt=""
+          src="./public/screenshot-20240110-211057-1@2x.png"
+        />
+
+        <img
+          class="screenshot-2024-01-10-211057-2"
+          alt=""
+          src="./public/screenshot-20240110-211057-2@2x.png"
+        />
+      </div>
+      <div class="dairy-title">
+        <div class="dairy-title-child"></div>
+        <b class="dairy2">DAIRY</b>
+        <div class="back-button">
+          <div class="back-button-child"></div>
+          <img class="back-button-item" alt="" src="./public/arrow-2.svg" />
+        </div>
+      </div>
+      <div class="directions">
+        <b class="directions1">Directions</b>
+        <img
+          class="a165f3db1121f23fe4524f40da2608-icon"
+          alt=""
+          src="./public/78a165f3db1121f23fe4524f40da2608-1@2x.png"
+        />
+
+        <img class="arrow-icon" alt="" src="./public/arrow.svg" />
+
+        <img
+          class="pngtree-you-are-here-location-icon"
+          alt=""
+          src="./public/pngtreeyouareherelocationpointervectorpngimage-6656543-1@2x.png"
+        />
+      </div>
+    </div>
+
+    <script>
+      var text = document.getElementById("text");
+      if (text) {
+        text.addEventListener("click", function (e) {
+          window.location.href = "./new-user-page2.html";
+        });
+      }
+      
+      var homeButtonContainer = document.getElementById("homeButtonContainer");
+      if (homeButtonContainer) {
+        homeButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./homepage.html";
+        });
+      }
+      </script>
+  </body>
+</html>

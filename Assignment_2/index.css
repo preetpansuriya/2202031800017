@@ -1,0 +1,266 @@
+.base1,
+.home-button-child,
+.homepage-child {
+  position: absolute;
+  top: 767px;
+  left: 319px;
+  background-color: var(--color-forestgreen);
+  width: 67px;
+  height: 71px;
+}
+.base1,
+.home-button-child {
+  top: 7px;
+  left: 0;
+  width: 390px;
+  height: 87px;
+}
+.home-button-child {
+  top: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--green-primary);
+  width: 78px;
+  height: 78px;
+}
+.b,
+.home-1-icon {
+  position: absolute;
+}
+.home-1-icon {
+  top: 13.5px;
+  left: 14.7px;
+  width: 49.6px;
+  height: 51px;
+  object-fit: cover;
+}
+.b {
+  top: 13px;
+  left: 164px;
+  display: inline-block;
+  width: 64px;
+  height: 60px;
+}
+.base,
+.home-button {
+  position: absolute;
+  top: 0;
+  left: 158px;
+  width: 228px;
+  height: 78px;
+}
+.base {
+  top: 750px;
+  left: 0;
+  width: 390px;
+  height: 94px;
+  font-size: var(--font-size-46xl);
+  color: var(--color-white);
+}
+.supermarket-title-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-forestgreen);
+  width: 389px;
+  height: 107px;
+}
+.s-u-p {
+  position: absolute;
+  top: 41px;
+  left: 41px;
+  display: inline-block;
+  width: 314px;
+  height: 62px;
+}
+.promotion-icon,
+.supermarket-title {
+  position: absolute;
+  left: 0;
+  width: 389px;
+}
+.supermarket-title {
+  top: 0;
+  height: 107px;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-ruda);
+}
+.promotion-icon {
+  top: 159px;
+  height: 194px;
+  object-fit: cover;
+}
+.search-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gainsboro);
+  width: 378px;
+  height: 36px;
+}
+.icon,
+.search {
+  position: absolute;
+}
+.search {
+  top: 11px;
+  left: 23px;
+  display: inline-block;
+  width: 52px;
+  height: 12px;
+}
+.icon {
+  top: 13px;
+  left: 10px;
+  width: 14px;
+  height: 13px;
+  object-fit: cover;
+}
+.search-button {
+  position: absolute;
+  top: 114px;
+  left: 6px;
+  width: 378px;
+  height: 36px;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-do-hyeon);
+}
+.item-6-child {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100px;
+  height: 100px;
+}
+.item-61 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  display: inline-block;
+  width: 99px;
+  height: 12px;
+}
+.item-51,
+.item-6 {
+  position: absolute;
+  top: 581px;
+  left: 268px;
+  width: 100px;
+  height: 135px;
+}
+.item-51 {
+  top: 0;
+  left: 14px;
+  display: inline-block;
+  width: 75px;
+  height: 12px;
+}
+.item-41,
+.item-5 {
+  position: absolute;
+  top: 581px;
+  left: 144px;
+  width: 100px;
+  height: 135px;
+}
+.item-41 {
+  top: 0;
+  left: 24px;
+  display: inline-block;
+  width: 53px;
+  height: 12px;
+}
+.item-4 {
+  top: 581px;
+  left: 20px;
+  height: 135px;
+}
+.dairy,
+.item-4,
+.xl1-20231002-1-icon {
+  position: absolute;
+  width: 100px;
+}
+.xl1-20231002-1-icon {
+  top: 25px;
+  left: 0;
+  height: 100px;
+  object-fit: cover;
+}
+.dairy {
+  top: 430px;
+  left: 20px;
+  height: 125px;
+  cursor: pointer;
+}
+.xl1-20210111-1-icon {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  width: 99px;
+  height: 99px;
+  object-fit: cover;
+}
+.frozen,
+.xl1-20220411-1-icon {
+  position: absolute;
+  top: 430px;
+  left: 144px;
+  width: 99px;
+  height: 125px;
+}
+.xl1-20220411-1-icon {
+  top: 26px;
+  left: 0;
+  height: 100px;
+  object-fit: cover;
+}
+.cleaning {
+  position: absolute;
+  top: 430px;
+  left: 268px;
+  width: 100px;
+  height: 126px;
+}
+.categories-title-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-forestgreen);
+  width: 357px;
+  height: 57px;
+}
+.categories {
+  position: absolute;
+  top: 8px;
+  left: 28px;
+  display: inline-block;
+  width: 314px;
+  height: 42px;
+}
+.categories-title {
+  position: absolute;
+  top: 365px;
+  left: 16px;
+  width: 357px;
+  height: 57px;
+  font-size: var(--font-size-14xl);
+  color: var(--color-white);
+  font-family: var(--font-ruda);
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--black);
+  font-family: var(--font-droid-sans);
+}

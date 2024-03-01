@@ -1,0 +1,179 @@
+.group-child4 {
+  border-radius: var(--br-31xl);
+  background-color: var(--green-primary);
+}
+.group-child4,
+.sign-up,
+.sign-up-button-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 356px;
+  height: 52px;
+}
+.sign-up {
+  top: 8px;
+  left: 135px;
+  display: inline-block;
+  width: 85px;
+  height: 35px;
+}
+.sign-up-button {
+  position: absolute;
+  top: 436px;
+  left: 16px;
+  width: 356px;
+  height: 52px;
+  text-align: center;
+  font-size: var(--ui-30-semi-size);
+  color: var(--color-white);
+  font-family: var(--font-dongle);
+}
+.bg-icon2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.password3,
+.show2 {
+  position: absolute;
+  top: calc(50% - 9px);
+  font-weight: 500;
+}
+.password3 {
+  left: 16px;
+}
+.show2 {
+  right: 16px;
+  color: var(--green-primary);
+  text-align: right;
+}
+.password2 {
+  position: absolute;
+  width: calc(100% - 34px);
+  top: 272px;
+  right: 18px;
+  left: 16px;
+  height: 50px;
+}
+.show3 {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 16px;
+  font-weight: 500;
+  color: var(--green-primary);
+  text-align: right;
+  display: none;
+}
+.email2,
+.name {
+  position: absolute;
+  width: calc(100% - 34px);
+  top: 204px;
+  right: 18px;
+  left: 16px;
+  height: 50px;
+}
+.name {
+  top: 130px;
+}
+.forgot-your-password {
+  position: absolute;
+  top: calc(50% + 84px);
+  left: 101px;
+  font-size: var(--font-size-mid);
+  font-weight: 500;
+  color: var(--green-primary);
+}
+.i-would-like {
+  margin: 0;
+}
+.i-would-like-container {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 24px;
+  font-weight: 500;
+}
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: #f6f6f6;
+  border: 1px solid var(--gray-03);
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+}
+.chcekbox {
+  position: absolute;
+  top: calc(50% - 65px);
+  left: 15px;
+  width: 345px;
+  height: 34px;
+  font-size: 14px;
+  color: #666;
+}
+.login1 {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-weight: 500;
+  display: none;
+}
+.sign-up1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 54.5px);
+  font-size: var(--ui-30-semi-size);
+  font-weight: 600;
+  color: var(--black);
+  text-align: center;
+}
+.iconx1,
+.right1 {
+  position: absolute;
+  display: none;
+}
+.iconx1 {
+  top: 4.7px;
+  left: -0.3px;
+  width: 22.6px;
+  height: 22.6px;
+  object-fit: contain;
+}
+.right1 {
+  top: calc(50% - 10px);
+  left: 0;
+  font-weight: 500;
+  text-align: left;
+}
+.sign-up-title {
+  position: absolute;
+  width: calc(100% - 47px);
+  top: 59px;
+  right: 23px;
+  left: 24px;
+  height: 36px;
+  text-align: right;
+  color: var(--green-primary);
+}
+.sign-up-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--ui-16-medium-size);
+  color: var(--gray-03);
+  font-family: var(--ui-16-medium);
+}
